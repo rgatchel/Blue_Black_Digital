@@ -1,0 +1,51 @@
+body{
+  margin:0 auto;
+  width:50%;
+  padding:10px 10px;
+  text-align:center;
+  background-color: #ff6666;
+}
+input{
+  width:0px;
+  border-radius:50px;
+  border: 2px solid #66ffff;
+  font-size: 20px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/490px-Magnifying_glass_icon.svg.png");
+  background-position:10px 10px;
+  background-size:30px;
+  background-position:center;
+  background-color:white;
+  background-repeat: no-repeat;
+  padding: 20px 10px 10px 40px;
+  margin: 0 0 5px 0;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input:focus {
+  width:100%;
+  background-image:none;
+}
+.searchBtn{
+  display:none
+}
+.randomBtn{
+  background-color: #66ffff;
+  font-size:16px;
+  border-radius:50px;
+  color:black;
+  cursor:pointer;
+}
+p > a:link {
+  border: 1px solid black;
+  font-size:20px;
+  padding:5px 0 5px 0;
+  margin:0 0 5px 0;
+  display:inline-block;
+  background-color:white;
+  width:100%;
+  text-decoration:none;
+  color:gray;
+}
+p > a:active{
+  color:blue;
+}
