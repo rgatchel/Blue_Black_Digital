@@ -1,0 +1,16 @@
+{
+  "name": "BlueBlackDigital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deply": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://rgatchel.github.io/Blue_Black_Digital",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
