@@ -1,0 +1,46 @@
+body {
+	padding: 5%;
+	padding: 10%;
+	background-image: url(main.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+h1{
+	font-weight:bold !important;
+	text-align:center;
+	font-size:45px !important;
+	font-family: 'Oswald', sans-serif !important; 
+}
+   
+#main{
+	color:white;
+	font-size:35px;
+	font-family: 'Oswald', sans-serif;
+}
+   
+h2{
+	font-weight:bold !important;
+	text-align:center;
+	color:white !important;
+	font-size:35px; 
+	font-family: 'Noto Serif', sans-serif;
+}
+
+#heading{
+	color:white;
+	font-size:25px;
+	font-family: 'Noto Serif', sans-serif;
+}
+
+#subscribe, #subscribe a{
+	text-align:center;
+	text-decoration:none;
+	color:white;
+}
+#subscribe a {
+	border: 1px solid #cccccc;
+	padding: 1%;
+	background-color: #cccccc;
+	border-radius: 15px;
+}
