@@ -41,6 +41,17 @@ body{
     color:#000000 !important;
 }
 
+.navbar-right {
+    position: absolute;
+    right: 0;
+}
+.free-quote {
+    padding: 9px 5px 9px 0
+}
+.free-quote > .btn-xs {
+    margin-top: 4px;
+}
+
 .img{
 	width:100% !important;
 }
