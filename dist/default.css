@@ -28,6 +28,7 @@ body{
 	box-shadow:none !important;
 	font-weight: bold;
 }
+
 .navbar ul a{
 	color:#008fb3 !important;
 }
@@ -41,23 +42,9 @@ body{
     color:#000000 !important;
 }
 
-.navbar-right {
-    position: absolute !important;
-    right: 0 !important;
-}
-
-.free-quote {
-    padding: 9px 5px 9px 0 !important;
-}
-
-.free-quote > .btn-xs {
-    margin-top: 4px !important;
-}
-
 .img{
 	width:100% !important;
 }
-
 
 .space{
 	width:100%;
