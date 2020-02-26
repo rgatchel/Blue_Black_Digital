@@ -45,6 +45,18 @@ body{
 	width:100% !important;
 }
 
+.navbar-right {
+    position: absolute !important;
+    right: 0 !important;
+}
+
+.free-quote {
+    padding: 9px 5px 9px 0 !important;
+}
+
+.free-quote > .btn-xs {
+    margin-top: 4px !important;
+}
 
 .space{
 	width:100%;
