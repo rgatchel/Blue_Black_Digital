@@ -17,6 +17,10 @@ body{
 	padding-right:0 !important;
 }
 
+a#quote {
+	color:green !important;
+}
+
 .navbar {
 	margin-bottom:0px !important;
 	width:100% !important;
