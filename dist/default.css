@@ -45,6 +45,14 @@ a#quote {
     color:#000000 !important;
 }
 
+#quote{
+	color:red !important;
+	float: right;
+    height: 50px;
+    padding: 12px 12px;
+    font-size: 18px;
+}
+
 .img{
 	width:100% !important;
 }
