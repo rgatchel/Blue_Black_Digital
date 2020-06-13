@@ -43,7 +43,7 @@
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#services">Services</a></li>
 					<li><a href="#locateUS">Location</a></li>
-					<li><a href="#email">Contact</a></li>
+					<li><a href="#email" id="quote">Free Quote</a></li>
 				 </ul>
 		</div>
 	</div>
@@ -60,7 +60,7 @@
 <div class="row">
 <div class="container-fluid text-center about col-lg-12 col-xs-12 col-sm-12">
 	<h1> About Blue Black Digital </h1>
-		<p>A small Website Development Studio located in Fort Wayne, Indiana. Focusing on developing websites for small businesses and individuals. Alongside website development Blue Black Digital also offers website hosting and domain name setup. Send me a message to set up an appointment or get a quote.</p> 
+		<p>A small Website Development Studio. Focusing on developing websites for small businesses and individuals. Alongside website development Blue Black Digital also offers website hosting and domain name setup.</p> 
 </div>
 </div>
 <!--Main Section Text-->
@@ -69,16 +69,6 @@
 
 <div class="row">
 <div id="portfolio" class="container-fluid text-center portfolio col-lg-12 col-sm-12 col-xs-12">
-
-	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 portfolio_container">
-		<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-			<img src="modal/GlassiqueArt.png" alt="Avatar" class="image">
-				<div class="overlay">
-					<i class="fa fa-search-plus fa-5x icon"></i>
-				</div>
-		</a>
-	</div>
-	
 	
 	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 portfolio_container">
 		<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
@@ -102,6 +92,24 @@
 	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 portfolio_container">
 		<a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
 			<img src="modal/TributePage.png" alt="Avatar" class="image">
+				<div class="overlay">
+					<i class="fa fa-search-plus fa-5x icon"></i>
+				</div>
+		</a>
+	</div>
+	
+	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 portfolio_container">
+		<a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+			<img src="modal/theButton.png" alt="Avatar" class="image">
+				<div class="overlay">
+					<i class="fa fa-search-plus fa-5x icon"></i>
+				</div>
+		</a>
+	</div>
+	
+	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 portfolio_container">
+		<a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+			<img src="modal/LandingPage.png" alt="Avatar" class="image">
 				<div class="overlay">
 					<i class="fa fa-search-plus fa-5x icon"></i>
 				</div>
@@ -149,12 +157,6 @@
 				<p> </p>
 				<p>I'll setup your GoDaddy or specified domain name hosting account.</p>
 			</div>
-			<div class="col-sm-3">
-				<h4>Marketing</h4>
-				<img src="services/Marketing.png">
-				<p> </p>
-				<p>I offer Facebook, Instagram, and other social media marketing services. </p>
-			</div>
 			</div>
 	
 </div>
@@ -191,11 +193,16 @@
 <!--Contact Us Section-->
 <div class="row">
 <div id="email" class="container-fluid col-lg-12 email">
-	<form method="POST" action="http://formspree.io/blueblackdigital@gmail.com">
+	<form method="POST" action="https://formspree.io/xnqgvaro">
 		
 		<div class="form-group">
 			<label for="name">Name: </label>
 			<input type="name" class="form-control" name="name" id="name" placeholder="Your name">
+		</div>
+		
+		<div class="form-group">
+			<label for="business-name">Business Name: </label>
+			<input type="name" class="form-control" name="name" id="business name" placeholder="Business name">
 		</div>
 	
 		<div class="form-group">
@@ -209,10 +216,8 @@
           <label><input type="checkbox" name="service" value="custome site">Custome Site </label>
 		  <label><input type="checkbox" name="service" value="hosting">Hosting </label>
 		  <label><input type="checkbox" name="service" value="DNSetup">Domain Name Setup </label>
-		  <label><input type="checkbox" name="service" value="marketing"> Marketing </label>
         </div>
       </div>
-    
 		
 		<div class="form-group">
 			<label for="pages">pages: </label>
@@ -226,6 +231,15 @@
 		<div class="form-group">
 			<label for="comment">What do you need in a website?</label>
 			<textarea class="form-control" name="message" placeholder="This is for marketing. I have a product to sell. I just started my own business. I want a unique wedding invitation"></textarea>
+		</div>
+		
+		<div class="form-group">
+			<label for="budget">budget: </label>
+			</br>
+			<select name="budget">
+				<option value="100_500">$100 - $500</option>
+				<option value="501+">$501+</option>
+			</select>
 		</div>
 		
 		<div class="form-group">
@@ -248,11 +262,11 @@
         <li>
             <a href="https://www.facebook.com/BlueBlackDigital/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
         </li>
-		<!--
-        <li>
-            <a href="https://www.youtube.com/channel/UCcVTIWxAecDDs1yNL5-RTNA?view_as=subscriber" class="btn-social btn-outline"><i class="fa fa-youtube"></i></a>
-        </li>
-		-->			
+		
+		<li>
+            <a href="https://fb.com/book/BlueBlackDigital/" class="btn-social btn-outline"><i class="fa fa-calendar"></i></a>
+       	</li>
+		
 		<li>
             <a href="https://www.instagram.com/blueblackdigital/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
         </li>					
@@ -264,47 +278,6 @@
 <!--******************************************************************************-->
 
   <!-- Portfolio Modals -->
-  
-  <!--Glassique Art Start-->
-  
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Glassique Art</h2>
-                            <hr class="star-primary">
-                            <img src="modal/GlassiqueArt_M.png" class="img-responsive img-centered" alt="">
-                            <p><a href="http://www.glassiqueart.com">glassiqueart.com</a>, created to promote Glassique Art, LLC when they moved from Huntington to Fort Wayne, IN. The site took on the role of showing future customers what Glassique Art is capable of!</p>
-                            <ul class="list-inline item-details">
-                                <li><strong>Client:</strong>
-                                    <a href="http://www.facebook.com/GlassiqueArt">Glassique Art</a>
-                                    
-                                </li>
-                                <li><strong>Date:</strong>
-                                    October 2016
-                                    
-                                </li>
-                                <li><strong>Service:</strong>
-                                    Web Development
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	
-	<!--Glassique Art Start-->
 	
 	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -416,6 +389,80 @@
     </div>
 	
 	<!--Tribute Page End-->
+	
+	<!--theButton-->
+	
+	<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>THE BUTTON</h2>
+                            <hr class="star-primary">
+                            <img src="modal/theButton_M.png" class="img-responsive img-centered" alt="">
+                            <p> <a href="https://gatchel-ryan.itch.io/the-button">THE BUTTON</a> A simple game of patience created for fun.</p>
+                            <ul class="list-inline item-details">  
+                                </li>
+                                <li><strong>Date: </strong>
+                                    August 2019 
+                                </li>
+                                <li><strong>Service:</strong>
+                                   Game Development
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<!--theButton End-->
+	
+	<!--LandingPage-->
+	
+	<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Landing Page</h2>
+                            <hr class="star-primary">
+                            <img src="modal/LandingPage_M.png" class="img-responsive img-centered" alt="">
+                            <p> <a href="Landing_Page/index.html">Landing Page</a> site to show off events, businesses, or individual projects. </p>
+                            <ul class="list-inline item-details">  
+                                </li>
+                                <li><strong>Date: </strong>
+                                    June 2019 
+                                </li>
+                                <li><strong>Service:</strong>
+                                    Web Development
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<!--LandingPage End-->
 	
 	
  <!-- Portfolio Modals End-->
