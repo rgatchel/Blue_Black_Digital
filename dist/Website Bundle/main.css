@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body{
+	margin:20px;
+	overflow-x:hidden;
+}
+
 .row {
   margin: -10px 0;
 }
@@ -12,6 +17,11 @@
 
 .header{
 	background-color:#008fb3 !important;
+}
+
+#info{
+	text-align:center;
+	
 }
 
 .price {
@@ -68,6 +78,11 @@ h4 {
 }
 
 @media only screen and (min-width: 600px) {
+  
+  body{
+	overflow-x:hidden;
+}
+  
   .row {
     margin: 0 -10px;
   }
