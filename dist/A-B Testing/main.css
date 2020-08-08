@@ -2,9 +2,11 @@
   box-sizing: border-box;
 }
 
-.columns {
-  float: left;
-  width: 33.3%;
+.row {
+  margin: -10px 0;
+}
+
+.col {
   padding: 8px;
 }
 
@@ -56,8 +58,6 @@ h4 {
   font-size: 18px;
 }
 
-
-
 /*contact*/
 .email{
 	padding: 10% 35% !important;
@@ -67,8 +67,18 @@ h4 {
 	font-size:10px;
 }
 
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
+@media only screen and (min-width: 600px) {
+  .row {
+    margin: 0 -10px;
+  }
+  .row::after {
+    clear: left;
+    content: '';
+    display: block;
+  }
+  .col {
+    float: left;
+    width: calc(100%/3);
+    padding: 0 10px;
   }
 }
