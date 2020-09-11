@@ -76,6 +76,12 @@ a#quote {
 	width:25%;
 }
 
+@media screen and (max-width: 767px) {
+  #desktop-phone {
+    display: none;
+  }
+}
+
 /*Testimonials*/
 
 #text{
