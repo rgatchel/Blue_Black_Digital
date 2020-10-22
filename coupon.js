@@ -10,9 +10,5 @@ if (!sessionStorage.couponModal) {
 	
 }
 
-span.onclick = function() {
-	modal.style.display = "none";	
-}
-
 sessionStorage.couponModal = 1;
 
