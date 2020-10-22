@@ -1,6 +1,6 @@
 var span = document.getElementsByClassName("close")[0];
 
-if (!sessionStorage.couponModal) {
+if (!localStorage.couponModal) {
 	setTimeout(function() {
 		$('#couponModal').modal({
 			backdrop: 'static',
@@ -10,5 +10,5 @@ if (!sessionStorage.couponModal) {
 	
 }
 
-sessionStorage.couponModal = 1;
+localStorage.couponModal = 1;
 
