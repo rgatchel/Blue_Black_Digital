@@ -242,6 +242,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <label for="name">Name: </label>
           <input type="text" class="form-control" name="name" id="name" placeholder="Your name"  required type="text">
         </div>
+		 <!-- If we receive data in this field submission will be ignored -->
+		<input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
         <div class="form-group">
           <label for="business-name">Business Name: </label>
           <input type="text" class="form-control" name="$business" id="business" placeholder="Business name" required type="text">
@@ -261,10 +263,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</select>
 		</div>
         <div class="form-group">
-          <label for="comment">What do you need in a website?</label>
-          <textarea class="form-control" type="text" name="message" placeholder="This is for marketing. I have a product to sell. I just started my own business. I want a unique wedding invitation"></textarea>
-        </div>
-        <div class="form-group">
           <label for="newsletter">
             Subscribe to Newsletter :
             </br>
@@ -273,10 +271,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <p> "Your email will not be shared" </p>
         </br>
-		<!-- If we receive data in this field submission will be ignored -->
-		<input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
 		<input type="hidden" name="redirectTo" value="https://blueblackdigital.com"> 
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" id="submit" class="btn btn-default">Submit</button>
       </form>
     </div>
   </div>
@@ -288,9 +284,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="row">
     <div class="container-fluid text-center socialMedia col-lg-12">
       <ul class="list-inline">
-        <li> <a href="https://www.facebook.com/BlueBlackDigital/" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a> </li>
-        <li> <a href="https://squareup.com/appointments/book/ckbvqiubm4tjpb/Q7R93F9966FWK/date" class="btn-social btn-outline"><i class="fa fa-calendar"></i></a> </li>
-        <li> <a href="https://www.instagram.com/blueblackdigital/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a> </li>
+        <li> <a href="https://www.facebook.com/BlueBlackDigital/" target="_blank" id="facebook" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a> </li>
+        <li> <a href="https://squareup.com/appointments/book/ckbvqiubm4tjpb/Q7R93F9966FWK/date" id="square" class="btn-social btn-outline"><i class="fa fa-calendar"></i></a> </li>
+        <li> <a href="https://www.instagram.com/blueblackdigital/" class="btn-social btn-outline" id="instagram" ><i class="fa fa-fw fa-instagram"></i></a> </li>
       </ul>
     </div>
   </div>
@@ -303,6 +299,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="coupon-modal-content">
 		<span class="close" data-dismiss="modal">&times;</span>
 		  <h2>Want to save $200 on a site package?</h2>
+		  <h4> expires 11/01/2020 </h4>
 		  
     <form action="https://api.staticforms.xyz/submit" method="post">
 	<input type="hidden" name="accessKey" value="92d0c5fc-909a-43b6-bcf8-d9925e08e474">
